@@ -3,7 +3,14 @@
 
 Warning: Some tweets included use foul language
 
+### Visualization
+
+Live Project can be found [here](https://isabelstoddart.github.io/tweets_capitol_riot/)
+
+Tweets are sized based on number of followers of the Tweeter. Roll mouse over each circle to see the actual tweet.
+
 ### Process
+
 * Started by looking through the data. Had issues using the AWS CLI and jq package so decided to just download the files and use one of them
 * After doing some research, narrowed down the files to the one from January 6th at 2:10 - 2:15 PM because this is around the first 5 minutes after the rioters entered the capitol building
 * Changed newline-deliminated json to regular json so the file could be fed into d3.js
